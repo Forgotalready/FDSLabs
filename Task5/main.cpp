@@ -16,7 +16,6 @@ int main() {
         {
             dot_product += (a[i] * b[i]);
         }
-
     }
 
     float real_dot_product = 0.0f;
