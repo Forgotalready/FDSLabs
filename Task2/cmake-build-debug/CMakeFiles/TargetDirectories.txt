@@ -1,0 +1,3 @@
+D:/NewFolder/Labs/bmp/Task2/cmake-build-debug/CMakeFiles/Task2.dir
+D:/NewFolder/Labs/bmp/Task2/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/NewFolder/Labs/bmp/Task2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

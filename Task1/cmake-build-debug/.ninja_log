@@ -1,0 +1,11 @@
+# ninja log v5
+1	888	7611375542901542	CMakeFiles/Task1.dir/main.cpp.obj	ae87ec4af58a5ab8
+891	1213	7611375546130521	Task1.exe	5d4aeeeb5553b06e
+3	853	7611376694393676	CMakeFiles/Task1.dir/main.cpp.obj	ae87ec4af58a5ab8
+853	1018	7611376696024909	Task1.exe	5d4aeeeb5553b06e
+3	747	7611383738768420	CMakeFiles/Task1.dir/main.cpp.obj	ae87ec4af58a5ab8
+748	879	7611383740058406	Task1.exe	5d4aeeeb5553b06e
+3	732	7611384017134776	CMakeFiles/Task1.dir/main.cpp.obj	ae87ec4af58a5ab8
+733	865	7611384018431398	Task1.exe	5d4aeeeb5553b06e
+2	719	7611384144453308	CMakeFiles/Task1.dir/main.cpp.obj	ae87ec4af58a5ab8
+720	851	7611384145742979	Task1.exe	5d4aeeeb5553b06e

@@ -1,0 +1,7 @@
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Program Files/JetBrains/CLion 2023.1.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\NewFolder\Labs\bmp\Task5 -B D:\NewFolder\Labs\bmp\Task5\cmake-build-debug
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Configuring done (2.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/NewFolder/Labs/bmp/Task5/cmake-build-debug

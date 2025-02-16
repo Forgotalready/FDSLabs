@@ -1,0 +1,146 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/Clib/MingGW_forSFML/lib/gcc/x86_64-w64-mingw32/13.1.0/include",
+						"D:/Clib/MingGW_forSFML/include",
+						"D:/Clib/MingGW_forSFML/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed",
+						"D:/Clib/MingGW_forSFML/x86_64-w64-mingw32/include",
+						"/MinGW/include"
+					],
+					"linkDirectories" : 
+					[
+						"D:/Clib/MingGW_forSFML/lib/gcc/x86_64-w64-mingw32/13.1.0",
+						"D:/Clib/MingGW_forSFML/lib/gcc",
+						"D:/Clib/MingGW_forSFML/x86_64-w64-mingw32/lib",
+						"D:/Clib/MingGW_forSFML/lib",
+						"/MinGW/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "D:/Clib/MingGW_forSFML/bin/gcc.exe",
+				"version" : "13.1.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/Clib/MingGW_forSFML/include/c++/13.1.0",
+						"D:/Clib/MingGW_forSFML/include/c++/13.1.0/x86_64-w64-mingw32",
+						"D:/Clib/MingGW_forSFML/include/c++/13.1.0/backward",
+						"D:/Clib/MingGW_forSFML/lib/gcc/x86_64-w64-mingw32/13.1.0/include",
+						"D:/Clib/MingGW_forSFML/include",
+						"D:/Clib/MingGW_forSFML/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed",
+						"D:/Clib/MingGW_forSFML/x86_64-w64-mingw32/include",
+						"/MinGW/include"
+					],
+					"linkDirectories" : 
+					[
+						"D:/Clib/MingGW_forSFML/lib/gcc/x86_64-w64-mingw32/13.1.0",
+						"D:/Clib/MingGW_forSFML/lib/gcc",
+						"D:/Clib/MingGW_forSFML/x86_64-w64-mingw32/lib",
+						"D:/Clib/MingGW_forSFML/lib",
+						"/MinGW/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "D:/Clib/MingGW_forSFML/bin/c++.exe",
+				"version" : "13.1.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "D:/Clib/MingGW_forSFML/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,16 @@
+[
+    {
+        "arguments": [
+            "D:\\Clib\\MingGW_forSFML\\bin\\c++.exe",
+            "-g",
+            "-std=gnu++20",
+            "-fdiagnostics-color=always",
+            "-DPVS_STUDIO",
+            "-DPVS_VERSION_MAJOR=7",
+            "-DPVS_VERSION_MINOR=34",
+            "D:\\NewFolder\\Labs\\bmp\\Task1\\main.cpp"
+        ],
+        "dependencies": [],
+        "id": 1
+    }
+]
