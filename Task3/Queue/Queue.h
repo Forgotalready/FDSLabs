@@ -1,6 +1,3 @@
-//
-// Created by Олег on 13.02.2025.
-//
 #ifndef TASK3_QUEUE_H
 #define TASK3_QUEUE_H
 

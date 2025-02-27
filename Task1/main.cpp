@@ -4,10 +4,11 @@
 
 void count_down(int n)
 {
-    std::cout << "Count down thread id: " << std::this_thread::get_id() << "\n";
+    std::cout << "Count down thread id: " << std::this_thread::get_id() << std::endl;
     for(int i = n;i >= 0;i--)
     {
         std::cout << i << " ";
+        std::cout.flush();
         std::this_thread::sleep_for(std::chrono::seconds(1));
     }
     std::cout << "\n";

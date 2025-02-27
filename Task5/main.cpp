@@ -2,7 +2,7 @@
 #include <omp.h>
 #include <vector>
 
-int main() {
+int main(){
     std::vector<float> a = {1.5, 5, 12., 5., 6., 7., 78.};
     std::vector<float> b = {20.5, 6, 15., 10., 8., 6., 120.};
 
@@ -12,7 +12,7 @@ int main() {
     #pragma omp parallel default(none) shared(a, b, n, dot_product)
     {
         #pragma omp for reduction(+:dot_product)
-        for(int i = 0;i < n; i++)
+        for(int i = 0; i < n; i++)
         {
             dot_product += (a[i] * b[i]);
         }
