@@ -1,0 +1,58 @@
+[
+    {
+        "arguments": [
+            "D:\\Clib\\MingGW_forSFML\\bin\\c++.exe",
+            "-g",
+            "-fdiagnostics-color=always",
+            "-fopenmp",
+            "-DPVS_STUDIO",
+            "-DPVS_VERSION_MAJOR=7",
+            "-DPVS_VERSION_MINOR=34",
+            "D:\\NewFolder\\Labs\\bmp\\Ind1\\IntegrationMethod\\IIntegrateMethod.cpp"
+        ],
+        "dependencies": [],
+        "id": 1
+    },
+    {
+        "arguments": [
+            "D:\\Clib\\MingGW_forSFML\\bin\\c++.exe",
+            "-g",
+            "-fdiagnostics-color=always",
+            "-fopenmp",
+            "-DPVS_STUDIO",
+            "-DPVS_VERSION_MAJOR=7",
+            "-DPVS_VERSION_MINOR=34",
+            "D:\\NewFolder\\Labs\\bmp\\Ind1\\IntegrationMethod\\RectangleIntegration.cpp"
+        ],
+        "dependencies": [],
+        "id": 2
+    },
+    {
+        "arguments": [
+            "D:\\Clib\\MingGW_forSFML\\bin\\c++.exe",
+            "-g",
+            "-fdiagnostics-color=always",
+            "-fopenmp",
+            "-DPVS_STUDIO",
+            "-DPVS_VERSION_MAJOR=7",
+            "-DPVS_VERSION_MINOR=34",
+            "D:\\NewFolder\\Labs\\bmp\\Ind1\\Solver.cpp"
+        ],
+        "dependencies": [],
+        "id": 3
+    },
+    {
+        "arguments": [
+            "D:\\Clib\\MingGW_forSFML\\bin\\c++.exe",
+            "-g",
+            "-fdiagnostics-color=always",
+            "-fopenmp",
+            "-DPVS_STUDIO",
+            "-DPVS_VERSION_MAJOR=7",
+            "-DPVS_VERSION_MINOR=34",
+            "D:\\NewFolder\\Labs\\bmp\\Ind1\\main.cpp"
+        ],
+        "dependencies": [],
+        "id": 4
+    }
+]
