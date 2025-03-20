@@ -13,5 +13,5 @@ double Solver::integrate(std::function<double(double)>& func, double a, double b
     return result;
 }
 
-Solver::Solver(IIntegrateMethod *method)
-    : _method(method) {}
+Solver::Solver(std::unique_ptr<IIntegrateMethod>&& method)
+    : _method(std::move(method)) {}

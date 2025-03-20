@@ -4,15 +4,17 @@
 #include <functional>
 #include <chrono>
 #include <iostream>
+#include <memory>
+
 #include "IntegrationMethod/IIntegrateMethod.h"
 
 class Solver {
 private:
-    IIntegrateMethod* _method;
+    std::unique_ptr<IIntegrateMethod> _method;
 public:
     double integrate(std::function<double(double)>&, double, double);
 
-    explicit Solver(IIntegrateMethod* method);
+    explicit Solver(std::unique_ptr<IIntegrateMethod>&& method);
     ~Solver() = default;
 };
 
