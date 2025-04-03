@@ -6,7 +6,7 @@
 
 int main() {
     const double a = 0;
-    const double b = 100000;
+    const double b = 1000000;
     std::function func = [](double x){return sin(x);};
 
     std::unique_ptr<IIntegrateMethod> method = std::make_unique<RectangleIntegration>();
